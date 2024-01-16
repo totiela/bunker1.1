@@ -1,0 +1,72 @@
+body {
+    background: url('../img/Bombo03-4.jpg') center/cover fixed;
+    font-family: 'Cinzel Decorative', cursive;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+label {
+    margin-bottom: 2px;
+    font-size: 22px;
+    color: #dcdcdc;
+    text-shadow: 1px 1px 1px #000;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Cinzel Decorative', cursive;
+    background: url('../img/d2fe37ec134a839f287bc42da9eb2a8a.jpg') center/cover;
+    background-color: #96ff1d;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+    text-shadow: 1px 1px 1px #000;
+    display: block;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#errorText {
+    color: red;
+}
+
+.upload {
+    width: 100px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.rightbot {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+
+@media (max-width: 600px) {
+   
+    body {
+        font-family: 'Changa One', cursive;
+    }
+    
+}

@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.1);
+    background-image: url('../img/1625834103_20-kartinkin-com-p-bunker-arti-art-krasivo-21.jpg'); /* Путь к вашей фотографии бункера */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Cinzel Decorative', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 6em; 
+    color: #dcdcdc;
+    text-align: center; 
+    margin-bottom: 10px; 
+    border-radius: 0px; 
+    text-shadow: 2px 2px 2px #000;
+}
+.subtitle {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #dcdcdc;
+    margin-top: 10px;
+    margin-bottom: 120px;
+    margin-left: 30px;
+    text-shadow: 1px 1px 1px #000;
+
+}
+button {
+    padding: 20px 50px;
+    font-size: 20px;
+    font-weight: bold; 
+    font-family: 'Cinzel Decorative', cursive; 
+    background-image: url('../img/d2fe37ec134a839f287bc42da9eb2a8a.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #96ff1d;
+    color: aliceblue; 
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    transition: background-color 0.3s ease;
+    margin-bottom: 350px;
+    margin-left: 175px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+button:hover {
+    color: aliceblue;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8; 
+    filter: brightness(110%); 
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.made-by {
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
+    font-size: 12px;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    /* Специфические стили для мобильных устройств */
+    .title {
+        font-size: 4em;
+    }
+    button {
+        margin-left: 138px;
+        margin-top: 25px;
+    }
+    body {
+        font-family: 'Changa One', cursive;
+    }
+    
+}
